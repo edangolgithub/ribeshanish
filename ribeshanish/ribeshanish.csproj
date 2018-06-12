@@ -43,6 +43,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="anishform.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="anishform.Designer.cs">
+      <DependentUpon>anishform.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>

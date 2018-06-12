@@ -35,6 +35,7 @@
             this.centiconvertbtn = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
             this.ferentxtbox = new System.Windows.Forms.TextBox();
+            this.button1 = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -69,6 +70,7 @@
             // groupBox1
             // 
             this.groupBox1.BackColor = System.Drawing.Color.Green;
+            this.groupBox1.Controls.Add(this.button1);
             this.groupBox1.Controls.Add(this.centiconvertbtn);
             this.groupBox1.Controls.Add(this.label2);
             this.groupBox1.Controls.Add(this.ferentxtbox);
@@ -112,6 +114,16 @@
             this.ferentxtbox.Size = new System.Drawing.Size(100, 20);
             this.ferentxtbox.TabIndex = 4;
             // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(282, 46);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(75, 23);
+            this.button1.TabIndex = 6;
+            this.button1.Text = "button1";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -135,6 +147,7 @@
         private System.Windows.Forms.Button centiconvertbtn;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.TextBox ferentxtbox;
+        private System.Windows.Forms.Button button1;
     }
 }
 

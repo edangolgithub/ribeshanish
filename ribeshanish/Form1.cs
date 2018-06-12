@@ -25,5 +25,11 @@ namespace ribeshanish
             double c = (f - 32) * 5 / 9;
             MessageBox.Show(Convert.ToString(c));
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            anishform a = new anishform();
+            a.Show();
+        }
     }
 }
