@@ -28,98 +28,24 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.okbbutton = new System.Windows.Forms.Button();
-            this.radiustextbox = new System.Windows.Forms.TextBox();
-            this.label1 = new System.Windows.Forms.Label();
-            this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.centiconvertbtn = new System.Windows.Forms.Button();
-            this.label2 = new System.Windows.Forms.Label();
-            this.ferentxtbox = new System.Windows.Forms.TextBox();
+            this.listBox1 = new System.Windows.Forms.ListBox();
             this.button1 = new System.Windows.Forms.Button();
-            this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
-            // okbbutton
+            // listBox1
             // 
-            this.okbbutton.ForeColor = System.Drawing.Color.Black;
-            this.okbbutton.Location = new System.Drawing.Point(145, 163);
-            this.okbbutton.Name = "okbbutton";
-            this.okbbutton.Size = new System.Drawing.Size(100, 23);
-            this.okbbutton.TabIndex = 0;
-            this.okbbutton.Text = "area of circle";
-            this.okbbutton.UseVisualStyleBackColor = true;
-            this.okbbutton.Click += new System.EventHandler(this.okbbutton_Click);
-            // 
-            // radiustextbox
-            // 
-            this.radiustextbox.Location = new System.Drawing.Point(145, 137);
-            this.radiustextbox.Name = "radiustextbox";
-            this.radiustextbox.Size = new System.Drawing.Size(100, 20);
-            this.radiustextbox.TabIndex = 1;
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.ForeColor = System.Drawing.Color.Khaki;
-            this.label1.Location = new System.Drawing.Point(18, 142);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(121, 13);
-            this.label1.TabIndex = 2;
-            this.label1.Text = "Enter the radius of circle";
-            // 
-            // groupBox1
-            // 
-            this.groupBox1.BackColor = System.Drawing.Color.Green;
-            this.groupBox1.Controls.Add(this.button1);
-            this.groupBox1.Controls.Add(this.centiconvertbtn);
-            this.groupBox1.Controls.Add(this.label2);
-            this.groupBox1.Controls.Add(this.ferentxtbox);
-            this.groupBox1.Controls.Add(this.okbbutton);
-            this.groupBox1.Controls.Add(this.label1);
-            this.groupBox1.Controls.Add(this.radiustextbox);
-            this.groupBox1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.groupBox1.ForeColor = System.Drawing.Color.Yellow;
-            this.groupBox1.Location = new System.Drawing.Point(0, 0);
-            this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(643, 369);
-            this.groupBox1.TabIndex = 3;
-            this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "Area Of Circle";
-            // 
-            // centiconvertbtn
-            // 
-            this.centiconvertbtn.ForeColor = System.Drawing.Color.Black;
-            this.centiconvertbtn.Location = new System.Drawing.Point(432, 161);
-            this.centiconvertbtn.Name = "centiconvertbtn";
-            this.centiconvertbtn.Size = new System.Drawing.Size(100, 23);
-            this.centiconvertbtn.TabIndex = 3;
-            this.centiconvertbtn.Text = "convert to celsius";
-            this.centiconvertbtn.UseVisualStyleBackColor = true;
-            this.centiconvertbtn.Click += new System.EventHandler(this.centiconvertbtn_Click);
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.ForeColor = System.Drawing.Color.Khaki;
-            this.label2.Location = new System.Drawing.Point(305, 140);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(94, 13);
-            this.label2.TabIndex = 5;
-            this.label2.Text = "Enter the farenhiet";
-            // 
-            // ferentxtbox
-            // 
-            this.ferentxtbox.Location = new System.Drawing.Point(432, 135);
-            this.ferentxtbox.Name = "ferentxtbox";
-            this.ferentxtbox.Size = new System.Drawing.Size(100, 20);
-            this.ferentxtbox.TabIndex = 4;
+            this.listBox1.FormattingEnabled = true;
+            this.listBox1.Location = new System.Drawing.Point(171, 37);
+            this.listBox1.Name = "listBox1";
+            this.listBox1.Size = new System.Drawing.Size(221, 290);
+            this.listBox1.TabIndex = 0;
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(282, 46);
+            this.button1.Location = new System.Drawing.Point(181, 343);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 6;
+            this.button1.TabIndex = 1;
             this.button1.Text = "button1";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
@@ -128,25 +54,18 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(643, 369);
-            this.Controls.Add(this.groupBox1);
+            this.ClientSize = new System.Drawing.Size(832, 426);
+            this.Controls.Add(this.button1);
+            this.Controls.Add(this.listBox1);
             this.Name = "Form1";
             this.Text = "Form1";
-            this.groupBox1.ResumeLayout(false);
-            this.groupBox1.PerformLayout();
             this.ResumeLayout(false);
 
         }
 
         #endregion
 
-        private System.Windows.Forms.Button okbbutton;
-        private System.Windows.Forms.TextBox radiustextbox;
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.GroupBox groupBox1;
-        private System.Windows.Forms.Button centiconvertbtn;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.TextBox ferentxtbox;
+        private System.Windows.Forms.ListBox listBox1;
         private System.Windows.Forms.Button button1;
     }
 }

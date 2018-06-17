@@ -1,4 +1,11 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace ribeshanish
@@ -10,26 +17,31 @@ namespace ribeshanish
             InitializeComponent();
         }
 
-        private void okbbutton_Click(object sender, EventArgs e)
-        {
-            double r;
-            r =Convert.ToDouble(radiustextbox.Text);
-            double area = (22 / 7) * r * r;
-            MessageBox.Show(Convert.ToString(area));
-        }
-
-        private void centiconvertbtn_Click(object sender, EventArgs e)
-        {
-            double f;
-            f = Convert.ToDouble(ferentxtbox.Text);
-            double c = (f - 32) * 5 / 9;
-            MessageBox.Show(Convert.ToString(c));
-        }
-
         private void button1_Click(object sender, EventArgs e)
         {
-            anishform a = new anishform();
-            a.Show();
+
+            //for (int i = 10; i >= 1; i = i--)
+            //{
+            //    listBox1.Items.Add("hello");
+            //}
+
+            //int a = 1;
+
+            //while(a<=10)
+            //{
+            //    listBox1.Items.Add(a);
+            //    a = a + 1;
+            //}
+
+            //int a = 1;
+            //do
+            //{
+            //    listBox1.Items.Add(a);
+            //    a = a + 1;
+            //} while (a <= 10);
+
+            
+
         }
     }
 }
