@@ -116,15 +116,45 @@ namespace ribeshanish
 
 
 
+            //string s = Console.ReadLine();
+            //Console.WriteLine(s);
 
+            char ch;
+            Console.WriteLine("enter an alphabet");
+            ch=Convert.ToChar((Console.ReadLine()));
 
+            switch (ch)
+            {
+                case 'a':
+                    Console.WriteLine("it is vowel");
+                    break;
 
+                case 'e':
+                    Console.WriteLine("it is vowel");
+                    break;
 
+                case 'i':
+                    Console.WriteLine("it is vowel");
+                    break;
 
+                case 'o':
+                    Console.WriteLine("it is vowel");
+                    break;
 
+                case 'u':
+                    Console.WriteLine("it is vowel");
+                    break;
 
+                default:
+                    Console.WriteLine("it is not vowel");
+                    break;
 
             }
+
+
+
+
+        }
 
     
            
