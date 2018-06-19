@@ -3,10 +3,11 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using ribeshanish.Classes;
 
 namespace ribeshanish
 {
-     class Program
+    class Program
     {
         /// <summary>
         /// The main entry point for the application.
@@ -14,153 +15,53 @@ namespace ribeshanish
         [STAThread]
         static void Main()
         {
-            //Application.EnableVisualStyles();
-            //Application.SetCompatibleTextRenderingDefault(false);
-            //Application.Run(new Form1());
+            Application.EnableVisualStyles();
+            Application.SetCompatibleTextRenderingDefault(false);
+            Application.Run(new forms.aboutandroid());
 
-            //int i = 10;
-            //do
-            //{
-
-            //    Console.WriteLine(i);
-            //    i--;
-
-            //} while (i >= 1);
-
-            //int prime = 19;
-            //bool isprime = false;
-
-            //for(int i=2; i<=prime-1; i++)
-            //{
-            //    if(prime%i==0)
-            //    {
-            //        isprime = false;
-            //        break;
-            //    }
-            //    else
-            //    {
-            //        isprime = true;
-            //    }
-            //}
-            //if(isprime==true)
-            //{
-            //    Console.WriteLine("prime");
-            //}
-            //else
-            //{
-            //    Console.WriteLine("not prime");
-            //}
-
-            int a = 32;
-
-            //if(a==1)
-            //{
-            //    Console.WriteLine("if");
-            //}
-            //else
-            //{
-            //    Console.WriteLine("else");
-            //}
-
-            //switch(a)
-            //{
-            //    case 1:
-            //        Console.WriteLine("if");
-            //        break;
-            //    case 2:
-            //        Console.WriteLine("ifif");
-            //        break;
-            //    case 32:
-            //        Console.WriteLine("32");
-            //        break;
-            //    default:
-            //        Console.WriteLine("else");
-            //        break;
-            //}
-
-            ////string grade = "A";
-
-            ////switch(grade)
-            ////{
-            ////    case "A":
-            ////        Console.WriteLine("excellent");
-            ////        break;
-
-            ////    case "B":
-            ////        Console.WriteLine("very good");
-            ////        break;
-
-            ////    case "C":
-            ////        Console.WriteLine("good");
-            ////        break;
-
-            ////    case "D":
-            ////        Console.WriteLine("satisfactory");
-            ////        break;
-
-            ////    case "E":
-            ////        Console.Write("very poor");
-            ////        break;
-
-            ////    case "N":
-            ////        Console.WriteLine("fail");
-            ////        break;
-
-            //    default:
-
-            //        Console.WriteLine("begin the class again");
-            //        break;
+            Animal a = new Animal();
+            a.eyecolor = "black";
+            a.numberoflegs = 4;
+            a.display();
 
 
+            Animal b = new Animal();
+            b.eyecolor = "green";
+            b.numberoflegs = 2;
+            b.display();
+
+            Animal c = new Animal();
+            b.eyecolor = "yellow";
+            b.numberoflegs = 3;
+            b.display();
+
+            snake d = new snake();
+            d.eyecolor = "green and black";
+            d.numberoflegs = 0;
+            d.view();
+
+            germany r = new germany();
+            r.flagcolor = "black , red and yellow";
+            r.numofworldcupwon = 4;
+            r.show();
 
 
+            Android s = new Android();
+            s.company = " samsung";
+            s.modelnumber = "galaxy j10 new";
+            s.ramsize = 7;
+            s.internalmemory = 132;
+            s.colortypes = "white, black, metallic grey, golden,  pink, navy blue";
+            s.version=  7 ;
+            s.price = 68000;
+            s.frontcamera = 16;
+            s.backcamera = 32;
 
+            s.view();
 
-            //string s = Console.ReadLine();
-            //Console.WriteLine(s);
-
-            char ch;
-            Console.WriteLine("enter an alphabet");
-            ch=Convert.ToChar((Console.ReadLine()));
-
-            switch (ch)
-            {
-                case 'a':
-                    Console.WriteLine("it is vowel");
-                    break;
-
-                case 'e':
-                    Console.WriteLine("it is vowel");
-                    break;
-
-                case 'i':
-                    Console.WriteLine("it is vowel");
-                    break;
-
-                case 'o':
-                    Console.WriteLine("it is vowel");
-                    break;
-
-                case 'u':
-                    Console.WriteLine("it is vowel");
-                    break;
-
-                default:
-                    Console.WriteLine("it is not vowel");
-                    break;
-
-            }
-
-
-
+                
+                
 
         }
-
-    
-           
-        }
-
-
-       
     }
-
+}
