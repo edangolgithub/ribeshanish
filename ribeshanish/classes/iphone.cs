@@ -8,7 +8,9 @@ namespace ribeshanish.classes
 {
     class iphone
     {
-        public int camera;
+        public int backcamera;
+        public int frontcamera;
+        public int ios;
         public bool flashlight;
         public int storage;
         public int button;
@@ -20,7 +22,9 @@ namespace ribeshanish.classes
 
         public void cout()
         {
-            Console.WriteLine("camera "+camera+ " Mp");
+            Console.WriteLine("backcamera  "+ backcamera + " Mp");
+            Console.WriteLine("frontcamera " + frontcamera + "Mp");
+            Console.WriteLine("ios version " + ios);
             Console.WriteLine("flash" +flashlight);
             Console.WriteLine(storage +"GB "+ "internal memory");
             Console.WriteLine( button+"button");

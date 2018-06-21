@@ -48,7 +48,9 @@ namespace ribeshanish
 
 
             iphone fives = new iphone();
-            fives.camera = 5;
+            fives.backcamera = 15;
+            fives.frontcamera = 8;
+            fives.ios = 10;
             fives.flashlight = true;
             fives.storage = 16;
             fives.button = 1;
