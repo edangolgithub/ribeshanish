@@ -55,28 +55,25 @@
     <Compile Include="forms\aboutandroid.Designer.cs">
       <DependentUpon>aboutandroid.cs</DependentUpon>
     </Compile>
+    <Compile Include="forms\AndroidForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="forms\AndroidForm.Designer.cs">
+      <DependentUpon>AndroidForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="forms\calculatorform.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="forms\calculatorform.Designer.cs">
       <DependentUpon>calculatorform.cs</DependentUpon>
     </Compile>
-
     <Compile Include="Classes\Android.cs" />
     <Compile Include="Classes\Animal.cs" />
     <Compile Include="Classes\germany.cs" />
     <Compile Include="Classes\snake.cs" />
-   <Compile Include="classes\Animal.cs" />
     <Compile Include="classes\Computer.cs" />
     <Compile Include="classes\Human.cs" />
     <Compile Include="classes\iphone.cs" />
-    <Compile Include="Form1.cs">
-
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="forms\Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
-    </Compile>
     <Compile Include="forms\ifform.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -95,11 +92,11 @@
     <EmbeddedResource Include="forms\aboutandroid.resx">
       <DependentUpon>aboutandroid.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="forms\AndroidForm.resx">
+      <DependentUpon>AndroidForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="forms\calculatorform.resx">
       <DependentUpon>calculatorform.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="forms\Form1.resx">
-      <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="forms\ifform.resx">
       <DependentUpon>ifform.cs</DependentUpon>

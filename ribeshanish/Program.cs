@@ -21,14 +21,9 @@ namespace ribeshanish
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new forms.aboutandroid());
+            Application.Run(new forms.AndroidForm());
 
-           
-            fives.flashlight = true;
-            fives.storage = 16;
-            fives.button = 1;
-
-
+          
 
     
            
