@@ -4,6 +4,10 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
+
+
+using ribeshanish.classes;
+
 namespace ribeshanish
 {
      class Program
@@ -18,142 +22,48 @@ namespace ribeshanish
             //Application.SetCompatibleTextRenderingDefault(false);
             //Application.Run(new Form1());
 
-            //int i = 10;
-            //do
-            //{
+            //Animal a = new Animal();
+        
+            //a.eyecolor = "red";
+            //a.numoflegs = 4;
+            //a.display();
 
-            //    Console.WriteLine(i);
-            //    i--;
 
-            //} while (i >= 1);
+            //Animal b = new Animal();
+            //b.eyecolor = "green";
+            //b.numoflegs = 8;
+            //b.display();
 
-            //int prime = 19;
-            //bool isprime = false;
 
-            //for(int i=2; i<=prime-1; i++)
-            //{
-            //    if(prime%i==0)
-            //    {
-            //        isprime = false;
-            //        break;
-            //    }
-            //    else
-            //    {
-            //        isprime = true;
-            //    }
-            //}
-            //if(isprime==true)
-            //{
-            //    Console.WriteLine("prime");
-            //}
-            //else
-            //{
-            //    Console.WriteLine("not prime");
-            //}
+            //Human h = new Human();
+            //h.hair = "brown";
+            //h.fingers = 10;
+            //h.output();
 
-            int a = 32;
 
-            //if(a==1)
-            //{
-            //    Console.WriteLine("if");
-            //}
-            //else
-            //{
-            //    Console.WriteLine("else");
-            //}
+            //Computer c =new Computer();
+            //c.ram = 8;
+            //c.rom = 64;
+            //c.seenout();
 
-            //switch(a)
-            //{
-            //    case 1:
-            //        Console.WriteLine("if");
-            //        break;
-            //    case 2:
-            //        Console.WriteLine("ifif");
-            //        break;
-            //    case 32:
-            //        Console.WriteLine("32");
-            //        break;
-            //    default:
-            //        Console.WriteLine("else");
-            //        break;
-            //}
 
-            ////string grade = "A";
+            iphone fives = new iphone();
+            fives.camera = 5;
+            fives.flashlight = true;
+            fives.storage = 16;
+            fives.button = 1;
 
-            ////switch(grade)
-            ////{
-            ////    case "A":
-            ////        Console.WriteLine("excellent");
-            ////        break;
 
-            ////    case "B":
-            ////        Console.WriteLine("very good");
-            ////        break;
 
-            ////    case "C":
-            ////        Console.WriteLine("good");
-            ////        break;
+            fives.price = 5200;
 
-            ////    case "D":
-            ////        Console.WriteLine("satisfactory");
-            ////        break;
-
-            ////    case "E":
-            ////        Console.Write("very poor");
-            ////        break;
-
-            ////    case "N":
-            ////        Console.WriteLine("fail");
-            ////        break;
-
-            //    default:
-
-            //        Console.WriteLine("begin the class again");
-            //        break;
+            fives.cout();
 
 
 
 
 
-
-            //string s = Console.ReadLine();
-            //Console.WriteLine(s);
-
-            char ch;
-            Console.WriteLine("enter an alphabet");
-            ch=Convert.ToChar((Console.ReadLine()));
-
-            switch (ch)
-            {
-                case 'a':
-                    Console.WriteLine("it is vowel");
-                    break;
-
-                case 'e':
-                    Console.WriteLine("it is vowel");
-                    break;
-
-                case 'i':
-                    Console.WriteLine("it is vowel");
-                    break;
-
-                case 'o':
-                    Console.WriteLine("it is vowel");
-                    break;
-
-                case 'u':
-                    Console.WriteLine("it is vowel");
-                    break;
-
-                default:
-                    Console.WriteLine("it is not vowel");
-                    break;
-
-            }
-
-
-
-
+            
         }
 
     
