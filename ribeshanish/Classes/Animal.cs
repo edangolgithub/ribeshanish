@@ -4,19 +4,18 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ribeshanish.Classes
+namespace ribeshanish.classes
 {
-  public  class Animal
+   public class Animal
     {
-       public string eyecolor;
-       public int numberoflegs;
+      public  string eyecolor;
+       public int numoflegs;
 
 
         public void display()
         {
             Console.WriteLine(eyecolor);
-            Console.WriteLine(numberoflegs);
+            Console.WriteLine(numoflegs);
         }
-
     }
 }

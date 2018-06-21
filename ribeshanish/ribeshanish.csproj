@@ -61,19 +61,14 @@
     <Compile Include="forms\calculatorform.Designer.cs">
       <DependentUpon>calculatorform.cs</DependentUpon>
     </Compile>
-
     <Compile Include="Classes\Android.cs" />
     <Compile Include="Classes\Animal.cs" />
     <Compile Include="Classes\germany.cs" />
     <Compile Include="Classes\snake.cs" />
-   <Compile Include="classes\Animal.cs" />
+   
     <Compile Include="classes\Computer.cs" />
     <Compile Include="classes\Human.cs" />
     <Compile Include="classes\iphone.cs" />
-    <Compile Include="Form1.cs">
-
-      <SubType>Form</SubType>
-    </Compile>
     <Compile Include="forms\Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
