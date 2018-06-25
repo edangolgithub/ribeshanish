@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using ribeshanish.Classes;
 
 namespace ribeshanish.forms
 {
@@ -17,13 +18,10 @@ namespace ribeshanish.forms
             InitializeComponent();
         }
 
-        private void textBox6_TextChanged(object sender, EventArgs e)
+        private void button1_Click(object sender, EventArgs e)
         {
-
-        }
-
-        private void aboutandroid_Load(object sender, EventArgs e)
-        {
+            Android myandroid = new Android();
+           
 
         }
     }

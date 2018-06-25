@@ -21,7 +21,7 @@ namespace ribeshanish
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new forms.aboutandroid());
+            Application.Run(new forms.PersonalInfo());
 
 
     

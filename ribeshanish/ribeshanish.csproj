@@ -36,6 +36,9 @@
     <StartupObject />
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Newtonsoft.Json, Version=11.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.11.0.2\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -49,6 +52,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Classes\Person.cs" />
     <Compile Include="forms\aboutandroid.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -65,13 +69,9 @@
     <Compile Include="Classes\Animal.cs" />
     <Compile Include="Classes\germany.cs" />
     <Compile Include="Classes\snake.cs" />
-   
     <Compile Include="classes\Computer.cs" />
     <Compile Include="classes\Human.cs" />
     <Compile Include="classes\iphone.cs" />
-    <Compile Include="forms\Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
-    </Compile>
     <Compile Include="forms\ifform.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -84,6 +84,18 @@
     <Compile Include="forms\newform.Designer.cs">
       <DependentUpon>newform.cs</DependentUpon>
     </Compile>
+    <Compile Include="forms\PersonalInfo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="forms\PersonalInfo.Designer.cs">
+      <DependentUpon>PersonalInfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="forms\PersonList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="forms\PersonList.Designer.cs">
+      <DependentUpon>PersonList.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Student.cs" />
@@ -93,14 +105,17 @@
     <EmbeddedResource Include="forms\calculatorform.resx">
       <DependentUpon>calculatorform.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="forms\Form1.resx">
-      <DependentUpon>Form1.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="forms\ifform.resx">
       <DependentUpon>ifform.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="forms\newform.resx">
       <DependentUpon>newform.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="forms\PersonalInfo.resx">
+      <DependentUpon>PersonalInfo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="forms\PersonList.resx">
+      <DependentUpon>PersonList.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -112,6 +127,9 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <None Include="packages.config" />
+    <None Include="Properties\DataSources\ribeshanish.Classes.Android.datasource" />
+    <None Include="Properties\DataSources\ribeshanish.Classes.Person.datasource" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
