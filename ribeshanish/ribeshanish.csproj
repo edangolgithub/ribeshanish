@@ -71,6 +71,18 @@
     <Compile Include="classes\Computer.cs" />
     <Compile Include="classes\Human.cs" />
     <Compile Include="classes\iphone.cs" />
+    <Compile Include="forms\CheckboxForm1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="forms\CheckboxForm1.Designer.cs">
+      <DependentUpon>CheckboxForm1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="forms\ComboboxForm1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="forms\ComboboxForm1.Designer.cs">
+      <DependentUpon>ComboboxForm1.cs</DependentUpon>
+    </Compile>
     <Compile Include="forms\ifform.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -95,11 +107,11 @@
     <Compile Include="forms\PersonList.Designer.cs">
       <DependentUpon>PersonList.cs</DependentUpon>
     </Compile>
-    <Compile Include="forms\RadioForm.cs">
+    <Compile Include="forms\RadioForm1.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="forms\RadioForm.Designer.cs">
-      <DependentUpon>RadioForm.cs</DependentUpon>
+    <Compile Include="forms\RadioForm1.Designer.cs">
+      <DependentUpon>RadioForm1.cs</DependentUpon>
     </Compile>
     <Compile Include="forms\worldcup.cs">
       <SubType>Form</SubType>
@@ -116,6 +128,12 @@
     <EmbeddedResource Include="forms\calculatorform.resx">
       <DependentUpon>calculatorform.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="forms\CheckboxForm1.resx">
+      <DependentUpon>CheckboxForm1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="forms\ComboboxForm1.resx">
+      <DependentUpon>ComboboxForm1.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="forms\ifform.resx">
       <DependentUpon>ifform.cs</DependentUpon>
     </EmbeddedResource>
@@ -128,8 +146,8 @@
     <EmbeddedResource Include="forms\PersonList.resx">
       <DependentUpon>PersonList.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="forms\RadioForm.resx">
-      <DependentUpon>RadioForm.cs</DependentUpon>
+    <EmbeddedResource Include="forms\RadioForm1.resx">
+      <DependentUpon>RadioForm1.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="forms\worldcup.resx">
       <DependentUpon>worldcup.cs</DependentUpon>
