@@ -53,17 +53,17 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Classes\Person.cs" />
+    <Compile Include="evan\EvanDrawing.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="evan\EvanDrawing.Designer.cs">
+      <DependentUpon>EvanDrawing.cs</DependentUpon>
+    </Compile>
     <Compile Include="forms\aboutandroid.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="forms\aboutandroid.Designer.cs">
       <DependentUpon>aboutandroid.cs</DependentUpon>
-    </Compile>
-    <Compile Include="forms\allform.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="forms\allform.Designer.cs">
-      <DependentUpon>allform.cs</DependentUpon>
     </Compile>
     <Compile Include="forms\calculatorform.cs">
       <SubType>Form</SubType>
@@ -72,23 +72,22 @@
       <DependentUpon>calculatorform.cs</DependentUpon>
     </Compile>
     <Compile Include="Classes\Android.cs" />
-    <Compile Include="Classes\Animal.cs" />
     <Compile Include="Classes\germany.cs" />
     <Compile Include="Classes\snake.cs" />
     <Compile Include="classes\Computer.cs" />
     <Compile Include="classes\Human.cs" />
     <Compile Include="classes\iphone.cs" />
-    <Compile Include="forms\CheckBoxForm.cs">
+    <Compile Include="forms\CheckboxForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="forms\CheckBoxForm.Designer.cs">
-      <DependentUpon>CheckBoxForm.cs</DependentUpon>
+    <Compile Include="forms\CheckboxForm.Designer.cs">
+      <DependentUpon>CheckboxForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="forms\Comboboxform.cs">
+    <Compile Include="forms\ComboboxForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="forms\Comboboxform.Designer.cs">
-      <DependentUpon>Comboboxform.cs</DependentUpon>
+    <Compile Include="forms\ComboboxForm.Designer.cs">
+      <DependentUpon>ComboboxForm.cs</DependentUpon>
     </Compile>
     <Compile Include="forms\ifform.cs">
       <SubType>Form</SubType>
@@ -114,47 +113,47 @@
     <Compile Include="forms\PersonList.Designer.cs">
       <DependentUpon>PersonList.cs</DependentUpon>
     </Compile>
-    <Compile Include="forms\radioform.cs">
+    <Compile Include="forms\RadioForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="forms\radioform.Designer.cs">
-      <DependentUpon>radioform.cs</DependentUpon>
+    <Compile Include="forms\RadioForm.Designer.cs">
+      <DependentUpon>RadioForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="forms\world cup winner.cs">
+    <Compile Include="forms\worldcup.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="forms\world cup winner.Designer.cs">
-      <DependentUpon>world cup winner.cs</DependentUpon>
+    <Compile Include="forms\worldcup.designer.cs">
+      <DependentUpon>worldcup.cs</DependentUpon>
     </Compile>
-    <Compile Include="forms\worldcuprussia.cs">
+    <Compile Include="forms\worldcup2018.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="forms\worldcuprussia.Designer.cs">
-      <DependentUpon>worldcuprussia.cs</DependentUpon>
+    <Compile Include="forms\worldcup2018.Designer.cs">
+      <DependentUpon>worldcup2018.cs</DependentUpon>
+    </Compile>
+    <Compile Include="forms\worldcupwinner.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="forms\worldcupwinner.Designer.cs">
+      <DependentUpon>worldcupwinner.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Student.cs" />
-    <Compile Include="worldcup.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="worldcup.designer.cs">
-      <DependentUpon>worldcup.cs</DependentUpon>
-    </Compile>
+    <EmbeddedResource Include="evan\EvanDrawing.resx">
+      <DependentUpon>EvanDrawing.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="forms\aboutandroid.resx">
       <DependentUpon>aboutandroid.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="forms\allform.resx">
-      <DependentUpon>allform.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="forms\calculatorform.resx">
       <DependentUpon>calculatorform.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="forms\CheckBoxForm.resx">
-      <DependentUpon>CheckBoxForm.cs</DependentUpon>
+    <EmbeddedResource Include="forms\CheckboxForm.resx">
+      <DependentUpon>CheckboxForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="forms\Comboboxform.resx">
-      <DependentUpon>Comboboxform.cs</DependentUpon>
+    <EmbeddedResource Include="forms\ComboboxForm.resx">
+      <DependentUpon>ComboboxForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="forms\ifform.resx">
       <DependentUpon>ifform.cs</DependentUpon>
@@ -168,14 +167,17 @@
     <EmbeddedResource Include="forms\PersonList.resx">
       <DependentUpon>PersonList.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="forms\radioform.resx">
-      <DependentUpon>radioform.cs</DependentUpon>
+    <EmbeddedResource Include="forms\RadioForm.resx">
+      <DependentUpon>RadioForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="forms\world cup winner.resx">
-      <DependentUpon>world cup winner.cs</DependentUpon>
+    <EmbeddedResource Include="forms\worldcup.resx">
+      <DependentUpon>worldcup.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="forms\worldcuprussia.resx">
-      <DependentUpon>worldcuprussia.cs</DependentUpon>
+    <EmbeddedResource Include="forms\worldcup2018.resx">
+      <DependentUpon>worldcup2018.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="forms\worldcupwinner.resx">
+      <DependentUpon>worldcupwinner.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -187,9 +189,6 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
-    <EmbeddedResource Include="worldcup.resx">
-      <DependentUpon>worldcup.cs</DependentUpon>
-    </EmbeddedResource>
     <None Include="packages.config" />
     <None Include="Properties\DataSources\ribeshanish.Classes.Android.datasource" />
     <None Include="Properties\DataSources\ribeshanish.Classes.Person.datasource" />
