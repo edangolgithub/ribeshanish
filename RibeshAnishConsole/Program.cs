@@ -1,4 +1,5 @@
-﻿using System;
+﻿using RibeshAnishConsole.evan;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -9,6 +10,8 @@ namespace RibeshAnishConsole
     {
         static void Main(string[] args)
         {
+            ArrayLearning al = new ArrayLearning();
+            al.showarray();
         }
     }
 }
