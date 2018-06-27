@@ -10,28 +10,24 @@ using System.Windows.Forms;
 
 namespace ribeshanish.forms
 {
-    public partial class Comboboxform : Form
+    public partial class ComboboxForm : Form
     {
-        string[] fteams = { "brazil" , "colombia" ,"argentina" , "germany" };
 
-
-
-
-
-        public Comboboxform()
+        string[] footballteams = { "BRAZIL", "GERMANY", "ARGENTINA", "PORTUGAL" };
+        public ComboboxForm()
         {
             InitializeComponent();
+
             fillcombobox();
         }
 
-        public void fillcombobox()
+        private void fillcombobox()
         {
-            comboBox2.Items.AddRange(fteams);
+            comboBox2.Items.AddRange(footballteams);
         }
 
+        
 
-
-
-
+        }
     }
-}
+

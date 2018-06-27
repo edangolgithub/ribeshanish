@@ -1,6 +1,6 @@
 ﻿namespace ribeshanish.forms
 {
-    partial class Comboboxform
+    partial class ComboboxForm
     {
         /// <summary>
         /// Required designer variable.
@@ -36,38 +36,45 @@
             // 
             this.comboBox1.FormattingEnabled = true;
             this.comboBox1.Items.AddRange(new object[] {
-            "Germany ",
-            "Brazil",
-            "Nepal",
-            "Bharat",
-            "figsfhsfsff",
-            "fg",
-            "r",
-            "frf",
-            "f",
-            "wfiosfus9hfjf08"});
-            this.comboBox1.Location = new System.Drawing.Point(259, 121);
+            "GERMANY",
+            "ENGLAND",
+            "BRAZIL",
+            "PORTUGAL",
+            "SPAIN",
+            "ARGENTINA",
+            "FRANCE",
+            "MEXICO",
+            "CROATIA",
+            "JAPAN",
+            "COLOMBIA",
+            "POLAND",
+            "SOUTH KOREA",
+            "RUSSIA",
+            "SWEDEN",
+            "DENMARK"});
+            this.comboBox1.Location = new System.Drawing.Point(180, 163);
             this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(392, 21);
+            this.comboBox1.Size = new System.Drawing.Size(327, 21);
             this.comboBox1.TabIndex = 0;
             // 
             // comboBox2
             // 
             this.comboBox2.FormattingEnabled = true;
-            this.comboBox2.Location = new System.Drawing.Point(259, 218);
+            this.comboBox2.Location = new System.Drawing.Point(180, 118);
             this.comboBox2.Name = "comboBox2";
-            this.comboBox2.Size = new System.Drawing.Size(392, 21);
+            this.comboBox2.Size = new System.Drawing.Size(327, 21);
             this.comboBox2.TabIndex = 1;
             // 
-            // Comboboxform
+            // ComboboxForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(709, 492);
             this.Controls.Add(this.comboBox2);
             this.Controls.Add(this.comboBox1);
-            this.Name = "Comboboxform";
-            this.Text = "Comboboxform";
+            this.Name = "ComboboxForm";
+            this.Text = "ComboboxForm";
+   
             this.ResumeLayout(false);
 
         }

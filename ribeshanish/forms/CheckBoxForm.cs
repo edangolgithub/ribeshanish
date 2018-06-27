@@ -10,78 +10,91 @@ using System.Windows.Forms;
 
 namespace ribeshanish.forms
 {
-    public partial class CheckBoxForm : Form
+    public partial class CheckboxForm : Form
     {
-        public CheckBoxForm()
+        public CheckboxForm()
         {
             InitializeComponent();
         }
 
-        private void label1_Click(object sender, EventArgs e)
+        private void checkBox5_CheckedChanged(object sender, EventArgs e)
         {
-
-        }
-
-        private void checkBox4_CheckedChanged(object sender, EventArgs e)
-        {
-            //  MessageBox.Show(checkBox4.Text);
+            //MessageBox.Show(checkBox5.Text);
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
             listBox1.Items.Clear();
-            foreach (Control c in this.Controls)
 
+            foreach (Control c in this.Controls)
             {
                 if (c is CheckBox)
-
-
-
-
                 {
                     CheckBox c1 = (CheckBox)c;
-                    if (c1.Checked == true)
+
+                    if(c1.Checked==true)
                     {
                         listBox1.Items.Add(c1.Text);
                         listBox1.Sorted = true;
                     }
+                           
                 }
+
             }
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
             listBox1.Items.Clear();
-            if (MathcheckBox.Checked==true)
-            {
-                listBox1.Items.Add(MathcheckBox.Text);
-            }
 
-            if (checkBox2.Checked == true)
+            if(americacheckbox.Checked==true)
             {
-                listBox1.Items.Add(checkBox2.Text);
+                listBox1.Items.Add(americacheckbox.Text);
             }
-            if (checkBox3.Checked == true)
+            if (norwaycheckbox.Checked == true)
             {
-                listBox1.Items.Add(checkBox3.Text);
+                listBox1.Items.Add(norwaycheckbox.Text);
             }
-            if (checkBox4.Checked == true)
+            if (australiacheckbox.Checked == true)
             {
-                listBox1.Items.Add(checkBox4.Text);
+                listBox1.Items.Add(australiacheckbox.Text);
             }
-            if (EnglishCheckbox.Checked == true)
+            if (japancheckBox.Checked == true)
             {
-                listBox1.Items.Add(EnglishCheckbox.Text);
+                listBox1.Items.Add(japancheckBox.Text);
             }
-            if (checkBox8.Checked == true)
+            if (germanycheckBox.Checked == true)
             {
-                listBox1.Items.Add(checkBox8.Text);
+                listBox1.Items.Add(germanycheckBox.Text);
             }
-
-
-
-
-
+            if (koreacheckbox.Checked == true)
+            {
+                listBox1.Items.Add(koreacheckbox.Text);
+            }
+            if (denmarkcheckbox.Checked == true)
+            {
+                listBox1.Items.Add(denmarkcheckbox.Text);
+            }
+            if (englandcheckbox.Checked == true)
+            {
+                listBox1.Items.Add(englandcheckbox.Text);
+            }
+            if (indiacheckbox.Checked == true)
+            {
+                listBox1.Items.Add(indiacheckbox.Text);
+            }
+            if (russiacheckBox.Checked == true)
+            {
+                listBox1.Items.Add(russiacheckBox.Text);
+            }
+            if (indonessiacheckBox.Checked == true)
+            {
+                listBox1.Items.Add(indonessiacheckBox.Text);
+            }
+            if (chinacheckBox.Checked == true)
+            {
+                listBox1.Items.Add(chinacheckBox.Text);
+            }
         }
     }
 }
