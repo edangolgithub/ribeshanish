@@ -2,16 +2,15 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using RibeshAnishConsole.ribesh;
-
+using RibeshAnishConsole.Anish;
 namespace RibeshAnishConsole
 {
     class Program
     {
         static void Main(string[] args)
         {
-            ArrayLearning r = new ArrayLearning();
-            r.ShowArray();
+            ArrayLearning anis = new ArrayLearning();
+            anis.Showarray();
         }
     }
 }
