@@ -59,6 +59,12 @@
     <Compile Include="forms\aboutandroid.Designer.cs">
       <DependentUpon>aboutandroid.cs</DependentUpon>
     </Compile>
+    <Compile Include="forms\allform.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="forms\allform.Designer.cs">
+      <DependentUpon>allform.cs</DependentUpon>
+    </Compile>
     <Compile Include="forms\calculatorform.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -72,6 +78,18 @@
     <Compile Include="classes\Computer.cs" />
     <Compile Include="classes\Human.cs" />
     <Compile Include="classes\iphone.cs" />
+    <Compile Include="forms\CheckBoxForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="forms\CheckBoxForm.Designer.cs">
+      <DependentUpon>CheckBoxForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="forms\Comboboxform.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="forms\Comboboxform.Designer.cs">
+      <DependentUpon>Comboboxform.cs</DependentUpon>
+    </Compile>
     <Compile Include="forms\ifform.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -96,6 +114,18 @@
     <Compile Include="forms\PersonList.Designer.cs">
       <DependentUpon>PersonList.cs</DependentUpon>
     </Compile>
+    <Compile Include="forms\radioform.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="forms\radioform.Designer.cs">
+      <DependentUpon>radioform.cs</DependentUpon>
+    </Compile>
+    <Compile Include="forms\world cup winner.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="forms\world cup winner.Designer.cs">
+      <DependentUpon>world cup winner.cs</DependentUpon>
+    </Compile>
     <Compile Include="forms\worldcuprussia.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -114,8 +144,17 @@
     <EmbeddedResource Include="forms\aboutandroid.resx">
       <DependentUpon>aboutandroid.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="forms\allform.resx">
+      <DependentUpon>allform.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="forms\calculatorform.resx">
       <DependentUpon>calculatorform.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="forms\CheckBoxForm.resx">
+      <DependentUpon>CheckBoxForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="forms\Comboboxform.resx">
+      <DependentUpon>Comboboxform.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="forms\ifform.resx">
       <DependentUpon>ifform.cs</DependentUpon>
@@ -128,6 +167,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="forms\PersonList.resx">
       <DependentUpon>PersonList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="forms\radioform.resx">
+      <DependentUpon>radioform.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="forms\world cup winner.resx">
+      <DependentUpon>world cup winner.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="forms\worldcuprussia.resx">
       <DependentUpon>worldcuprussia.cs</DependentUpon>

@@ -19,11 +19,24 @@ namespace ribeshanish.forms
 
         private void button1_Click(object sender, EventArgs e)
         {
-            string firsteam ="";
+            string firsteam = "";
             string seconteam = "";
 
             int playerchoice = 0;
-           
+            if (radioButton1.Checked == true)
+
+            {
+                playerchoice = 1;
+            }
+
+
+
+            else if (radioButton2.Checked == true) ;
+            {
+                playerchoice = 2;
+
+
+            }
         }
     }
 }
