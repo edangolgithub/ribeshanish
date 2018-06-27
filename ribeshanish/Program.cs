@@ -21,7 +21,7 @@ namespace ribeshanish
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Ribesh.RibeshForm());
+            Application.Run(new evan.evanform());
 
 
     
