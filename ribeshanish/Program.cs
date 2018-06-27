@@ -21,7 +21,7 @@ namespace ribeshanish
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new forms.worldcup2018());
+            Application.Run(new evan.EvanDrawing());
 
 
     
