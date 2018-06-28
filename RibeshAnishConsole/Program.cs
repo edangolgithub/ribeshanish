@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using RibeshAnishConsole.evan;
+using RibeshAnishConsole.ribesh;
 namespace RibeshAnishConsole
 {
     class Program
@@ -10,8 +10,7 @@ namespace RibeshAnishConsole
         static void Main(string[] args)
         {
             ArrayLearning a = new ArrayLearning();
-            //a.findproduct();
-            a.reversearray();
+            a.findproduct();
         }
     }
 }

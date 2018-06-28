@@ -16,8 +16,6 @@ namespace RibeshAnishConsole.Anish
                 Console.WriteLine(arr[i]);
                 
             }
-        }
-
-        
+        }        
     }
 }

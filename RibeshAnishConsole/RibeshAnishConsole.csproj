@@ -44,6 +44,7 @@
     <Compile Include="evan\ArrayLearning.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ribesh\ArrayLearning.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="NewFolder1\" />
