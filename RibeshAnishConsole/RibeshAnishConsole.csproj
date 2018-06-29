@@ -48,5 +48,8 @@
     <Compile Include="ribesh\ClassLearning.cs" />
     <Compile Include="ribesh\Maths.cs" />
   </ItemGroup>
+  <ItemGroup>
+    <Folder Include="NewFolder1\" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
