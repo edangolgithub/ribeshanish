@@ -45,6 +45,8 @@
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ribesh\ArrayLearning.cs" />
+    <Compile Include="ribesh\ClassLearning.cs" />
+    <Compile Include="ribesh\Maths.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

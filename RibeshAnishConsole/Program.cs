@@ -9,8 +9,10 @@ namespace RibeshAnishConsole
     {
         static void Main(string[] args)
         {
-            ArrayLearning a = new ArrayLearning();
-            a.findproduct();
+            Maths m = new Maths();
+            m.even();
+            
+          
         }
     }
 }
