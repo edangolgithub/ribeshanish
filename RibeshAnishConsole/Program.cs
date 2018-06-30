@@ -11,7 +11,7 @@ namespace RibeshAnishConsole
         {
             Maths m = new Maths();
             m.even();
-            //h today
+            //h today hora
           
         }
     }
