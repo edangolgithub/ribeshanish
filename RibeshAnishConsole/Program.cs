@@ -9,10 +9,10 @@ namespace RibeshAnishConsole
     {
         static void Main(string[] args)
         {
-            Maths m = new Maths();
-            m.even();
-            //h today hora
-          
+            Ribesh nest = new Ribesh();
+            nest.pattern7();
+
+
         }
     }
 }

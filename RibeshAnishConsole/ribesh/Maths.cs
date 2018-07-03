@@ -86,6 +86,8 @@ namespace RibeshAnishConsole.ribesh
             {
                 Console.WriteLine("it is prime");
             }
+
+
         }
 
 

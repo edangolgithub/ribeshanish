@@ -47,6 +47,7 @@
     <Compile Include="ribesh\ArrayLearning.cs" />
     <Compile Include="ribesh\ClassLearning.cs" />
     <Compile Include="ribesh\Maths.cs" />
+    <Compile Include="ribesh\Ribesh.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="NewFolder1\" />
