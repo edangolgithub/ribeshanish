@@ -19,7 +19,7 @@ namespace RibeshAnishConsole
             {
                 Console.WriteLine(arrr[i]);
             }
-            //array();
+            //array(); 
         }
 
         public static void array()
