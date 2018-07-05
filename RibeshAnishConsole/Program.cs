@@ -7,7 +7,7 @@ namespace RibeshAnishConsole
 {
     class Program
     {
-        static void Main(string[] args)
+        static void nMain(string[] args)
         {
             int[] arr = { 2, 5, 1, 72, 98 };
             int[] arrr = new int[5];
