@@ -82,10 +82,12 @@
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ribesh\ArrayLearning.cs" />
+    <Compile Include="ribesh\Box.cs" />
     <Compile Include="ribesh\ClassLearning.cs" />
     <Compile Include="ribesh\Constructor.cs" />
     <Compile Include="ribesh\Maths.cs" />
     <Compile Include="ribesh\Ribesh.cs" />
+    <Compile Include="ribesh\Shape.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="NewFolder1\" />
