@@ -48,6 +48,7 @@
     <Compile Include="evan\ArrayListClass.cs" />
     <Compile Include="evan\ArrayParamClass.cs" />
     <Compile Include="evan\Attributes.cs" />
+    <Compile Include="evan\Box.cs" />
     <Compile Include="evan\Collection_Stack.cs" />
     <Compile Include="evan\Constructor.cs" />
     <Compile Include="evan\Cpp.cs" />
@@ -75,6 +76,7 @@
     <Compile Include="evan\Reference.cs" />
     <Compile Include="evan\Reflection.cs" />
     <Compile Include="evan\Runnable.cs" />
+    <Compile Include="evan\Shape.cs" />
     <Compile Include="evan\Stack.cs" />
     <Compile Include="evan\Static.cs" />
     <Compile Include="evan\Threading.cs" />
