@@ -2,22 +2,21 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using EvanDangol.Tutorial.General;
 using RibeshAnishConsole.evan;
-using RibeshAnishConsole.ribesh;
-
 namespace RibeshAnishConsole
 {
     class Program
     {
-        static void uMain(string[] args)
+        static void Main(string[] args)
         {
-            Constructor c = new Constructor(8); 
+            encap e = new encap();
+            e.setname("ra");
+            e.getname();
+            e.setage(14);
+            e.getage();
         }
 
-        public static void array()
-        {
-
-        }
-
+        
     }
 }
