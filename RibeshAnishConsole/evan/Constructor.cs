@@ -98,6 +98,25 @@ namespace EvanDangol.Tutorial.General
              motor2.display();
          }
      }
+
+
+    public class Constructor
+    {
+        public Constructor()
+        {
+            Console.WriteLine("constructor");
+           
+        }
+    }
+
+
+    class rib
+    {
+        public rib(int q)
+        {
+            Console.WriteLine("constructor" + q);
+        }
+    }
 }
    
     
