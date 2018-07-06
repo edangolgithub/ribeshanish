@@ -34,6 +34,6 @@ class encap
 
     public void getname()
     {
-          
+           
     }
 } 
