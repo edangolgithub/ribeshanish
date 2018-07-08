@@ -1,13 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 using System.Windows.Forms;
-using ribeshanish.Classes;
-
-
-
-using ribeshanish.classes;
 
 namespace ribeshanish
 {
@@ -21,7 +13,7 @@ namespace ribeshanish
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new evan.evanform());
+            Application.Run(new Ribesh.Pyramid());
 
 
     
