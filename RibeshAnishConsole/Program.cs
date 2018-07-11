@@ -1,16 +1,13 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using RibeshAnishConsole.Anish;
-namespace RibeshAnishConsole
+﻿namespace RibeshAnishConsole
 {
     class Program
     {
         static void Main(string[] args)
         {
-            ArrayLearning anis = new ArrayLearning();
-            anis.Showarray();
+            //ArrayLearning anis = new ArrayLearning();
+            //anis.Showarray();
+            HW h = new HW();
+            h.Showss();
         }
     }
 }
