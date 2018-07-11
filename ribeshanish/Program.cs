@@ -1,10 +1,14 @@
 ﻿using System;
 using System.Windows.Forms;
 
-namespace ribeshanish
+namespace ribeshanish.Ribesh
 {
     class Program
     {
+        public Program()
+        {
+        }
+
         /// <summary>
         /// The main entry point for the application.
         /// </summary>
