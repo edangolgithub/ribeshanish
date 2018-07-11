@@ -93,9 +93,17 @@
     <Compile Include="ribesh\Win.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="ribesh\Windows.cs">
+      <SubType>Form</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Folder Include="NewFolder1\" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="ribesh\Win.resx">
+      <DependentUpon>Win.cs</DependentUpon>
+    </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
