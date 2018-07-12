@@ -3,18 +3,21 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using EvanDangol.Tutorial.General;
-using RibeshAnishConsole.evan;
+using RibeshAnishConsole.ribesh;
+using System.Windows.Forms;
 namespace RibeshAnishConsole
 {
     class Program
     {
-        int[] a = { 0, 1, 2, 3,4 };
-        enum days { sun, mon,tue,wed,thu,fri, sat};
+
+        enum days { sun ,mon ,tue ,wed ,thur ,fri ,sat}
         static void Main(string[] args)
         {
-            win w = new win();
+            Windows w = new Windows();
             w.ShowDialog();
         }
+
+       
 
         
     }
